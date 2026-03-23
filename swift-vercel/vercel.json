@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "functions": {
+    "api/swift.js": {
+      "maxDuration": 300,
+      "memory": 2048
+    },
+    "api/status.js": {
+      "maxDuration": 10,
+      "memory": 256
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type" }
+      ]
+    }
+  ]
+}
