@@ -1,0 +1,9 @@
+{
+  "name": "swift-serverless",
+  "version": "1.0.0",
+  "description": "Serverless Swift compiler/runner on Vercel",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
